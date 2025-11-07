@@ -1,13 +1,13 @@
 # Golden - B — Twitter 2 (React + MongoDB)
 
-This repository contains a minimal fullstack blog app fulfilling the Project N1 requirements: React frontend and Node/Express backend with MongoDB (Mongoose). It includes authentication, posts and comments.
+Esse é um projeto criado para a n1 da disciplina de Programacão Web II (PWEBII), no qual replica o twitter com as funcionalidades de ver, criar e deletar posts e comentários. Foi utilizado React (com Vite) no frontend e Express com Node no backend
 
-Folders:
+Pastas:
 - `backend/` — Node + Express API
 - `frontend/` — React (Vite) app
 
-Deliverables:
-- Backend provides endpoints:
+Endpoints:
+- Backend:
   - POST /api/auth/register
   - POST /api/auth/login
   - GET /api/posts
@@ -16,7 +16,7 @@ Deliverables:
   - GET /api/comments/:postId
   - POST /api/comments
 
-- Frontend pages:
+- Frontend:
   - Todos os Posts 
   - Criar Post 
   - Post individual (comments + create comment)
